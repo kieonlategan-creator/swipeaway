@@ -1,13 +1,16 @@
+import { useLocalSearchParams } from 'expo-router';
 import { StyleSheet } from 'react-native';
 
 import { ThemedText } from '@/app/components/themed-text';
 import { ThemedView } from '@/app/components/themed-view';
 
-export default function DiscoverScreen() {
+export default function DestinationDetailScreen() {
+  const { id } = useLocalSearchParams<{ id: string }>();
+
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="title">Discover</ThemedText>
-      <ThemedText>Swipe through destinations. Coming soon.</ThemedText>
+      <ThemedText type="title">Destination</ThemedText>
+      <ThemedText>Details for destination {id}</ThemedText>
     </ThemedView>
   );
 }

@@ -23,3 +23,12 @@ Tasks moved here from TODO.md upon completion.
 - [x] Set up Axios instance with base URL and interceptors
 - [x] Extend existing theme constants with full colour palette, spacing, and typography scales
 - [x] Create reusable UI components: Button, Input, Badge, Card, Avatar
+
+## Phase 2: Navigation & Layout
+
+- [x] Restructure tab navigation: Discover, Wishlist, Trips, Profile
+- [x] Create tab icons using existing icon system (extend icon mappings)
+- [x] Set up stack navigators within each tab
+- [x] Create screen placeholder files for all screens
+- [x] Add header configuration and styling per screen
+- [x] Implement deep linking configuration in app.json

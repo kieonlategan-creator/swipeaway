@@ -34,3 +34,12 @@
 - Set up Axios instance with auth interceptors
 - Extended theme with Spacing, BorderRadius, FontSize scales and new colours
 - Created reusable UI components: Button, Input, Badge, Card, Avatar
+
+## Version 0.5
+
+- Restructured tabs: Discover, Wishlist, Trips, Profile (replaced Home + Explore)
+- Extended icon mappings with 14 new SF Symbol / Material Icon pairs
+- Added stack screens: destination/[id], flights/[id], hotels/[id], settings, search
+- Created placeholder screens for all routes
+- Removed old explore tab and modal screen
+- Deep linking enabled via swipeaway:// scheme (already configured)

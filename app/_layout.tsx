@@ -27,7 +27,11 @@ export default function RootLayout() {
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+          <Stack.Screen name="destination/[id]" options={{ title: 'Destination', headerBackTitle: 'Back' }} />
+          <Stack.Screen name="flights/[id]" options={{ title: 'Flights', headerBackTitle: 'Back' }} />
+          <Stack.Screen name="hotels/[id]" options={{ title: 'Hotels', headerBackTitle: 'Back' }} />
+          <Stack.Screen name="settings" options={{ title: 'Settings', headerBackTitle: 'Back' }} />
+          <Stack.Screen name="search" options={{ title: 'Search', presentation: 'modal' }} />
         </Stack>
         <StatusBar style="auto" />
       </ThemeProvider>

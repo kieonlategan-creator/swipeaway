@@ -3,11 +3,11 @@ import { StyleSheet } from 'react-native';
 import { ThemedText } from '@/app/components/themed-text';
 import { ThemedView } from '@/app/components/themed-view';
 
-export default function DiscoverScreen() {
+export default function TripsScreen() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="title">Discover</ThemedText>
-      <ThemedText>Swipe through destinations. Coming soon.</ThemedText>
+      <ThemedText type="title">Trips</ThemedText>
+      <ThemedText>Your planned trips will appear here.</ThemedText>
     </ThemedView>
   );
 }

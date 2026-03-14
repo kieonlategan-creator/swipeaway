@@ -19,12 +19,12 @@ Step-by-step tasks to build the app from the current Expo template to a full tra
 
 ## Phase 2: Navigation & Layout
 
-- [ ] Restructure tab navigation: Discover, Wishlist, Trips, Profile
-- [ ] Create tab icons using existing icon system (extend icon mappings)
-- [ ] Set up stack navigators within each tab
-- [ ] Create screen placeholder files for all screens
-- [ ] Add header configuration and styling per screen
-- [ ] Implement deep linking configuration in app.json
+- [x] Restructure tab navigation: Discover, Wishlist, Trips, Profile
+- [x] Create tab icons using existing icon system (extend icon mappings)
+- [x] Set up stack navigators within each tab
+- [x] Create screen placeholder files for all screens
+- [x] Add header configuration and styling per screen
+- [x] Implement deep linking configuration in app.json
 
 ## Phase 3: Authentication
 
