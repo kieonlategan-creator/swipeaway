@@ -12,8 +12,9 @@ At the start of every session:
 4. Explain what you changed and why
 5. Mark the task complete in `tasks/TODO.md` (change `- [ ]` to `- [x]`)
 6. Move completed tasks to `tasks/DONE.md` under the appropriate phase heading
-7. Commit with a clear message describing what was done
-8. Keep code simple, well-documented, and consistent with existing patterns
+7. Update `docs/CHANGELOG.md` — add a bullet under the current version for each meaningful change
+8. Commit with a clear message describing what was done
+9. Keep code simple, well-documented, and consistent with existing patterns
 
 ### Rules
 
@@ -31,7 +32,9 @@ SwipeAway/
 ├── docs/                    # Project documentation
 │   ├── PROJECT_PLAN.md      # Milestones and roadmap
 │   ├── PRODUCT_SPEC.md      # Features, screens, monetisation
-│   └── ARCHITECTURE.md      # Tech stack, database, APIs
+│   ├── ARCHITECTURE.md      # Tech stack, database, APIs
+│   ├── FEATURES.md          # Categorised feature list
+│   └── CHANGELOG.md         # Version history (Claude maintains this)
 ├── tasks/                   # Task tracking
 │   ├── TODO.md              # Upcoming tasks by phase
 │   └── DONE.md              # Completed tasks log
