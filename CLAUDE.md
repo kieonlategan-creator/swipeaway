@@ -2,28 +2,26 @@
 
 Travel discovery app — swipe through destinations, save to wishlists, book flights and hotels.
 
-## Claude Development Workflow
+## How to Work on This Project
 
-At the start of every session:
+### Starting a session
 
-1. Read `docs/PROJECT_PLAN.md` to understand milestones and current phase
-2. Read `tasks/TODO.md` to find the next unfinished task
-3. Work on the next unchecked task in order
-4. Explain what you changed and why
-5. Mark the task complete in `tasks/TODO.md` (change `- [ ]` to `- [x]`)
-6. Move completed tasks to `tasks/DONE.md` under the appropriate phase heading
-7. Update `docs/CHANGELOG.md` — add a bullet under the current version for each meaningful change
-8. Commit with a clear message describing what was done
-9. Keep code simple, well-documented, and consistent with existing patterns
+1. Read `tasks/TODO.md` — find the next unchecked task
+2. If the task is non-trivial (new feature, architecture change), outline the approach before writing code
+3. Do the work — keep changes simple and minimal
+4. Verify it works before marking done (lint, quick test, or sanity check)
+5. Explain what changed in a short summary
+6. Update tracking: mark done in `tasks/TODO.md`, add to `tasks/DONE.md`, add a bullet to `docs/CHANGELOG.md`
+7. Commit with a clear message
 
-### Rules
+### Guidelines
 
-- Always work through tasks **in order** — don't skip ahead
-- One task at a time — finish and commit before starting the next
-- If a task is blocked, note why in TODO.md and move to the next
-- Ask the user before making architectural decisions not covered in the docs
-- Run `npm run lint` after code changes to catch issues early
-- Test on web (`npm run web`) as a quick smoke test when possible
+- For simple tasks (install a package, rename a file), just do it — no need to over-plan
+- For bigger tasks, think first: what files change, what could break, what's the simplest path
+- If blocked, note why in TODO.md and move on
+- Ask before making architectural decisions not covered in docs/
+- Don't add code "for later" — build what's needed now
+- Run `npm run lint` after code changes
 
 ## Project Structure
 
