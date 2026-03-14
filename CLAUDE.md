@@ -2,6 +2,28 @@
 
 Travel discovery app — swipe through destinations, save to wishlists, book flights and hotels.
 
+## Claude Development Workflow
+
+At the start of every session:
+
+1. Read `docs/PROJECT_PLAN.md` to understand milestones and current phase
+2. Read `tasks/TODO.md` to find the next unfinished task
+3. Work on the next unchecked task in order
+4. Explain what you changed and why
+5. Mark the task complete in `tasks/TODO.md` (change `- [ ]` to `- [x]`)
+6. Move completed tasks to `tasks/DONE.md` under the appropriate phase heading
+7. Commit with a clear message describing what was done
+8. Keep code simple, well-documented, and consistent with existing patterns
+
+### Rules
+
+- Always work through tasks **in order** — don't skip ahead
+- One task at a time — finish and commit before starting the next
+- If a task is blocked, note why in TODO.md and move to the next
+- Ask the user before making architectural decisions not covered in the docs
+- Run `npm run lint` after code changes to catch issues early
+- Test on web (`npm run web`) as a quick smoke test when possible
+
 ## Project Structure
 
 ```
@@ -52,3 +74,6 @@ npm run lint       # Run ESLint
 - Screens export default functions
 - Keep components small and focused — one component per file
 - Use Zustand for client state, TanStack Query for server state
+- Prefer simple, readable code over clever abstractions
+- Only add comments where the logic isn't self-evident
+- Don't over-engineer — build for what's needed now, not hypothetical futures
