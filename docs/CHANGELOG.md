@@ -23,3 +23,14 @@
 - Added docs/CHANGELOG.md for version tracking
 - Added docs/PROJECT_MAP.md for quick file navigation
 - Added tasks/DONE.md for completed task logging
+
+## Version 0.4
+
+- Installed zustand, @tanstack/react-query, axios
+- Created folder structure: services/, stores/, types/, utils/, data/
+- Defined TypeScript types for all core models (Destination, User, Swipe, Wishlist, Flight, Hotel)
+- Built Zustand stores: useUserStore, useSwipeStore, useWishlistStore
+- Added TanStack Query provider to root layout
+- Set up Axios instance with auth interceptors
+- Extended theme with Spacing, BorderRadius, FontSize scales and new colours
+- Created reusable UI components: Button, Input, Badge, Card, Avatar

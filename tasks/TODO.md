@@ -6,16 +6,16 @@ Step-by-step tasks to build the app from the current Expo template to a full tra
 
 ## Phase 1: Foundation & Setup
 
-- [ ] Install core dependencies (zustand, tanstack-query, axios, expo-image)
-- [ ] Install animation dependencies (react-native-reanimated, react-native-gesture-handler) — verify versions
-- [ ] Set up path aliases in tsconfig (`@/` already configured)
-- [ ] Create folder structure: `services/`, `stores/`, `types/`, `utils/`, `data/`
-- [ ] Define TypeScript types for Destination, User, Swipe, Wishlist, Flight, Hotel
-- [ ] Set up Zustand stores: `useUserStore`, `useSwipeStore`, `useWishlistStore`
-- [ ] Configure TanStack Query provider in root layout
-- [ ] Set up Axios instance with base URL and interceptors
-- [ ] Extend existing theme constants with full colour palette, spacing, and typography scales
-- [ ] Create reusable UI components: Button, Input, Badge, Card, Avatar
+- [x] Install core dependencies (zustand, tanstack-query, axios, expo-image)
+- [x] Install animation dependencies (react-native-reanimated, react-native-gesture-handler) — verify versions
+- [x] Set up path aliases in tsconfig (`@/` already configured)
+- [x] Create folder structure: `services/`, `stores/`, `types/`, `utils/`, `data/`
+- [x] Define TypeScript types for Destination, User, Swipe, Wishlist, Flight, Hotel
+- [x] Set up Zustand stores: `useUserStore`, `useSwipeStore`, `useWishlistStore`
+- [x] Configure TanStack Query provider in root layout
+- [x] Set up Axios instance with base URL and interceptors
+- [x] Extend existing theme constants with full colour palette, spacing, and typography scales
+- [x] Create reusable UI components: Button, Input, Badge, Card, Avatar
 
 ## Phase 2: Navigation & Layout
 
