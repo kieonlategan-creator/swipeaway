@@ -34,7 +34,8 @@ SwipeAway/
 │   ├── PRODUCT_SPEC.md      # Features, screens, monetisation
 │   ├── ARCHITECTURE.md      # Tech stack, database, APIs
 │   ├── FEATURES.md          # Categorised feature list
-│   └── CHANGELOG.md         # Version history (Claude maintains this)
+│   ├── CHANGELOG.md         # Version history (Claude maintains this)
+│   └── PROJECT_MAP.md       # Quick nav — where every file lives
 ├── tasks/                   # Task tracking
 │   ├── TODO.md              # Upcoming tasks by phase
 │   └── DONE.md              # Completed tasks log

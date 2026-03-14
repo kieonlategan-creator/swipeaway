@@ -21,4 +21,5 @@
 - Added CLAUDE.md with development workflow and session rules
 - Added docs/FEATURES.md with categorised feature list
 - Added docs/CHANGELOG.md for version tracking
+- Added docs/PROJECT_MAP.md for quick file navigation
 - Added tasks/DONE.md for completed task logging
