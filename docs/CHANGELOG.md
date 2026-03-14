@@ -43,3 +43,4 @@
 - Created placeholder screens for all routes
 - Removed old explore tab and modal screen
 - Deep linking enabled via swipeaway:// scheme (already configured)
+- Added project_dashboard.html — visual Kanban-style project overview
