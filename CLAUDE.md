@@ -2,26 +2,34 @@
 
 Travel discovery app — swipe through destinations, save to wishlists, book flights and hotels.
 
-## How to Work on This Project
+## Session Start
 
-### Starting a session
+1. Read `docs/PROJECT_PLAN.md` — know the current milestone
+2. Read `tasks/TODO.md` — find the next unchecked task
+3. Briefly explain the next task before coding
 
-1. Read `tasks/TODO.md` — find the next unchecked task
-2. If the task is non-trivial (new feature, architecture change), outline the approach before writing code
-3. Do the work — keep changes simple and minimal
-4. Verify it works before marking done (lint, quick test, or sanity check)
-5. Explain what changed in a short summary
-6. Update tracking: mark done in `tasks/TODO.md`, add to `tasks/DONE.md`, add a bullet to `docs/CHANGELOG.md`
-7. Commit with a clear message
+## How to Work
 
-### Guidelines
-
-- For simple tasks (install a package, rename a file), just do it — no need to over-plan
-- For bigger tasks, think first: what files change, what could break, what's the simplest path
+- For non-trivial tasks, propose a short plan first
+- Keep code simple and avoid over-engineering
+- Tell me which files you changed and why
+- Use plain English when explaining changes
 - If blocked, note why in TODO.md and move on
-- Ask before making architectural decisions not covered in docs/
-- Don't add code "for later" — build what's needed now
+- Flag risky assumptions before making big changes
+
+## Task Tracking
+
+- Mark completed items in `tasks/TODO.md` (`- [ ]` → `- [x]`)
+- Move finished items into `tasks/DONE.md` under the appropriate phase
+- Update `docs/CHANGELOG.md` after meaningful work
+- Commit with a clear message after each task
+
+## Quality
+
+- Do not mark work complete unless it is tested or clearly verified
+- Prefer minimal-impact edits — change only what's needed
 - Run `npm run lint` after code changes
+- Ask before making architectural decisions not covered in docs/
 
 ## Project Structure
 
